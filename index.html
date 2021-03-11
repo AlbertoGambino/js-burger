@@ -9,12 +9,14 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Create your burger</h1>
-        </header>
+        <div class="top">
+          <span>Create your own burger!</span>
+        </div>
+
+
         <main>
-            <input id="burger-name" name="burger-name" type="text" placeholder="Nome del panino">
-            <h2>Ingredients</h2>
+            <input id="burger-name" name="burger-name" type="text" placeholder="Inserisci qui il nome del tuo panino!">
+            <p>Aggiungi ciò che desideri</p>
             <ul>
                 <li>
                     <img src="img/cheese.svg" width="20px">
@@ -48,21 +50,21 @@
                 </li>
             </ul>
             <div>
-                <label for="coupon">Discount coupon</label>
-                <input id="burger-coupon" name="coupon" type="text" placeholder="Coupon">
+                <label for="coupon"></label>
+                <input id="burger-coupon" name="coupon" type="text" placeholder="Inserisci il tuo coupon">
             </div>
             <button id="calculate">Calcola prezzo</button>
         </main>
         <footer>
             <span>
-                Prezzo
+                Totale da pagare
             </span>
             <span>
                 <span>
                     €
                 </span>
                 <span id="price">
-                  15
+
                 </span>
             </span>
         </footer>
