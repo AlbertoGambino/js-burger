@@ -42,7 +42,7 @@ priceBtn = addEventListener('click', function(){
     var li = liste[i];
     li.addEventListener('click', function(){
 
-      console.log(li);
+      
 
       var wholeLi = this;
       var childsLi = this.children;
