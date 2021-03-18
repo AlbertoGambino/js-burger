@@ -1,6 +1,6 @@
 
 var priceBtn = document.getElementById('calculate');
-priceBtn = addEventListener('click', function(){
+priceBtn.addEventListener('click', function(){
 
   var nomePanino = document.getElementById('burger-name').value;
 
@@ -42,7 +42,7 @@ priceBtn = addEventListener('click', function(){
     var li = liste[i];
     li.addEventListener('click', function(){
 
-      
+
 
       var wholeLi = this;
       var childsLi = this.children;
